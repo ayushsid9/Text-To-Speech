@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #070642, #4a1277);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.container h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+span{
+   color: #da4315;
+}
+
+textarea{
+    width: 600px;
+    height: 250px;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    background: #403d84;
+    padding: 20px;
+    resize: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+ textarea::placeholder{
+    color: #fff;
+    font-size: 18px;
+    font-weight: lighter;
+ }
+
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+button{
+    background: #da4315;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 30px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    height: 50px;
+}
+
+button img{
+  width: 16px;
+  margin-right: 10px;
+}
+
+select{
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    padding: 0 20px;
+    background: #403d84;
+    flex: 1;
+    height: 50px;
+    background-image: url(/Text-To-Speech/images/dropdown.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    appearance: none;
+    background-position-x: calc(100% - 20px);
+    background-position-y: 20px;
+}
